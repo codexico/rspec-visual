@@ -71,6 +71,15 @@ Screenshots from all "visual" tests will be matched against ones in "stable" fol
 
 In case there is a difference, like so:
 
+#### "Stable" screenshot
+![Original](/../screenshots-do-not-delete/sample1.png?raw=true "Original")
+
+#### Screenshot with changes (banner missing)
+![Actual](/../screenshots-do-not-delete/sample2.png?raw=true "Actual")
+
+#### Diff file (diff area is highlighted in red)
+![Diff](/../screenshots-do-not-delete/sample_diff.png?raw=true "Diff")
+
 The test will fail and difference file will be generated in
 `Rspec::Visual::Configuration.screenshot_folder`:
 
